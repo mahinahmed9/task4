@@ -1,7 +1,11 @@
 
 
 <?php
-include('a.php');
+
+
+
+
+require('a.php');
 	if (isset($_POST['name']) && isset($_POST['password']))
 	{		
        $name=$_POST['name'];
